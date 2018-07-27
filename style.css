@@ -1,0 +1,20 @@
+/**
+ * Theme Name: Verona Books
+ * Description: Simple Theme
+ * textdomain: books
+ */
+
+
+body {
+    padding-top: 5rem;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+/*body { padding-top: 70px !important;}*/
+body.logged-in .navbar.fixed-top{ top: 32px !important; }
+
+.single-book-detail ul.book-details-list {margin:0; padding: 0; list-style: none}
+.single-book-detail img.attachment-post-thumbnail {width: 100%; height: auto}
